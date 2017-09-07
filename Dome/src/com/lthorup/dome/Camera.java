@@ -8,6 +8,7 @@ public class Camera extends Projector {
 	private Mat3 trueRot;
 	private Vec3 refADome, refBDome, refCDome;
 	
+	// constructor
 	public Camera(int resX, int resY, double fopX, double fopY) {
 		super(resX, resY, fopX, fopY);
 	}

@@ -22,7 +22,7 @@ public class DomeView extends JPanel {
 	Polar selection;
 	Font font = new Font("Serif", Font.PLAIN, 12);
 	/**
-	 * Create the panel.
+	 * Create the panel. Constructor
 	 */
 	public DomeView() {
 		addMouseListener(new MouseAdapter() {
